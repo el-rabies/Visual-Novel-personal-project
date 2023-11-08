@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 862: expected 'simple_expression' not found.
+    show rebecca angry at at lcen
+                          ^
+
+Ren'Py Version: Ren'Py 7.3.5.606
+Sun Nov  1 12:56:48 2020

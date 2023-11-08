@@ -1,0 +1,24 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 176, in script
+    m "Here's your order Becca."
+Exception: Parameter 'interact' is not known by ATL Transform.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 176, in script
+    m "Here's your order Becca."
+  File "/Applications/renpy-7.3.5-sdk/renpy/ast.py", line 708, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/Applications/renpy-7.3.5-sdk/renpy/exports.py", line 1345, in say
+    who(what, *args, **kwargs)
+  File "/Applications/renpy-7.3.5-sdk/renpy/atl.py", line 441, in __call__
+    raise Exception('Parameter %r is not known by ATL Transform.' % k)
+Exception: Parameter 'interact' is not known by ATL Transform.
+
+Darwin-19.6.0-x86_64-i386-64bit
+Ren'Py 7.3.5.606
+personal project 1.0
+Sun Nov  1 12:45:44 2020
